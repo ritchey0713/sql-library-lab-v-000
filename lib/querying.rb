@@ -1,7 +1,7 @@
 def select_books_titles_and_years_in_first_series_order_by_year
   "SELECT books.title, books.year FROM books 
    JOIN series 
-   ON books.id = series.book_id 
+   ON books.series_id = book_id 
    ORDER BY books.year"
 end
 
