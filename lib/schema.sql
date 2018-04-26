@@ -5,4 +5,4 @@ CREATE TABLE series (
     sub_genre_id TEXT
 );
 
-CREATE TABLE sub_genre
+CREATE TABLE 
